@@ -34,4 +34,5 @@
    - Lifetimes
    - Closures and iterators
    - Smart pointers (Box, Rc, RefCell)
+   - Concurrency (threads, channels)
    - Asynchronous programming (async/await)

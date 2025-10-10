@@ -1,0 +1,6 @@
+# DAG job scheduling with resources
+JOB compile dur=120 req=2:512
+JOB link dur=60 req=1:256 DEPENDS compile
+JOB pack dur=30 req=1:256 DEPENDS link
+JOB test dur=90 req=2:256 DEPENDS compile
+SCHEDULE policy=shortest

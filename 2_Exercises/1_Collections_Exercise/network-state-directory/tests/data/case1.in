@@ -1,0 +1,6 @@
+# Simple register and count
+MEMBER ForestCity 1 Alice Citizen
+MEMBER Zuitzerland 2 Bob Citizen
+COUNT ForestCity
+COUNT Zuitzerland
+STATS

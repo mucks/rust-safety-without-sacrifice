@@ -1,0 +1,6 @@
+# Basic model and report
+STATE ForestCity 300
+CITIZEN ForestCity 1 Alice Builder
+CITIZEN ForestCity 2 Ben Researcher
+CITIZEN ForestCity 3 Cara Validator
+REPORT ForestCity

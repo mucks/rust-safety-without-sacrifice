@@ -1,0 +1,12 @@
+
+[package]
+name = "network-logic-simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Students may add crates; tokio included for convenience
+[dependencies.tokio]
+version = "1"
+features = ["rt-multi-thread", "macros", "time"]

@@ -1,0 +1,4 @@
+FLOW gamma: chunks=1 path=FC->PR ETA=20ms
+FLOW beta: chunks=2 path=PR->ZU ETA=20ms
+FLOW alpha: chunks=3 path=FC->PR->ZU ETA=40ms
+COMPLETE (threads): gamma, beta, alpha

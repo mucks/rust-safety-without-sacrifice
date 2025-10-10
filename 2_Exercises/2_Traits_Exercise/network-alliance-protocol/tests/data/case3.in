@@ -1,0 +1,7 @@
+# Allies count in report
+STATE ForestCity 120
+ALLY ForestCity Prospera
+ALLY ForestCity Zuitzerland
+CITIZEN ForestCity 1 Alice Builder
+CITIZEN ForestCity 2 Akira Researcher
+REPORT ForestCity

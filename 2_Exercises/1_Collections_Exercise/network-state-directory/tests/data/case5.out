@@ -1,0 +1,6 @@
+Moved 4 from Zuitzerland to ForestCity: true
+PREFIX ForestCity Al:
+ - Alice (1)
+ - Alex (2)
+COUNT ForestCity: 3
+STATS citizens=2 validators=1 founders=1

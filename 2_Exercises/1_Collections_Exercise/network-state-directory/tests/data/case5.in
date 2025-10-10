@@ -1,0 +1,9 @@
+# Mixed scenario
+MEMBER ForestCity 1 Alice Citizen
+MEMBER ForestCity 2 Alex Citizen
+MEMBER Prospera 3 Priya Founder
+MEMBER Zuitzerland 4 Zack Validator
+MOVE Zuitzerland ForestCity 4
+PREFIX ForestCity Al
+COUNT ForestCity
+STATS

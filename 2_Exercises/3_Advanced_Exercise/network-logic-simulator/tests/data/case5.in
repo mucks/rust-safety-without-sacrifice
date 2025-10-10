@@ -1,0 +1,12 @@
+# Consensus + async timing
+NODE V1 weight=5 role=Validator
+NODE V2 weight=3 role=Validator
+NODE V3 weight=2 role=Validator
+VOTE V1 for=Alice round=7
+VOTE V2 for=Alice round=7
+VOTE V3 for=Bob round=7
+CONSENSUS round=7 quorum=66
+ASYNC_SYNC ingest delay=300
+ASYNC_SYNC analyze delay=100
+ASYNC_SYNC archive delay=200
+RUN_ASYNC

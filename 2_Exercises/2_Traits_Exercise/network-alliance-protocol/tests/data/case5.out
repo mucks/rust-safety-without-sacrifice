@@ -1,0 +1,4 @@
+REPORT ForestCity: pop=3 gdp=600 per_capita=200 allies=1
+ALLIANCE GreenNet: members=2 total_pop=9 avg_gdp=750
+[State] ForestCity: pop=3 gdp=600
+[Alliance] GreenNet: members=2 total_pop=9

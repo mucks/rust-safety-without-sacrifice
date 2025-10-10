@@ -1,0 +1,13 @@
+# Multi-criteria routing
+NODE A weight=1 role=Observer
+NODE B weight=1 role=Observer
+NODE C weight=1 role=Observer
+NODE D weight=1 role=Observer
+LINK A B latency=5 capacity=50
+LINK B C latency=5 capacity=50
+LINK A C latency=15 capacity=200
+LINK C D latency=7 capacity=25
+LINK B D latency=50 capacity=300
+ROUTE A D objective=latency
+ROUTE A D objective=max_bandwidth
+ROUTE A D objective=min_hops

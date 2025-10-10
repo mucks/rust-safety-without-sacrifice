@@ -1,0 +1,8 @@
+# Graph build + validation + summary
+NODE ForestCity weight=3 role=Validator
+NODE Prospera weight=2 role=Validator
+NODE Zuitzerland weight=1 role=Observer
+LINK ForestCity Prospera latency=20 capacity=200
+LINK Prospera Zuitzerland latency=30 capacity=150
+LINK ForestCity Zuitzerland latency=70 capacity=50
+SUMMARY

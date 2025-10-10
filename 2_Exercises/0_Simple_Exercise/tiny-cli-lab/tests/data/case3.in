@@ -1,0 +1,6 @@
+# Edge-ish: zeros and single word
+ADD 0 0
+MUL 7 0
+UPPER Go
+REV wow
+COUNT AAAA

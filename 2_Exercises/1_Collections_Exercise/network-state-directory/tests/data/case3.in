@@ -1,0 +1,7 @@
+# Prefix filtering
+MEMBER ForestCity 1 Alice Citizen
+MEMBER ForestCity 2 Akira Validator
+MEMBER ForestCity 3 Ben Citizen
+MEMBER ForestCity 4 Ana Founder
+PREFIX ForestCity A
+STATS

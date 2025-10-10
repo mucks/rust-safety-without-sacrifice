@@ -1,0 +1,10 @@
+# Concurrent flow simulation (threads)
+NODE FC weight=1 role=Observer
+NODE PR weight=1 role=Observer
+NODE ZU weight=1 role=Observer
+LINK FC PR latency=10 capacity=100
+LINK PR ZU latency=10 capacity=100
+FLOW alpha from=FC to=ZU size=9 chunk=3
+FLOW beta from=PR to=ZU size=6 chunk=3
+FLOW gamma from=FC to=PR size=3 chunk=3
+RUN_THREADS

@@ -1,0 +1,3 @@
+ROUTE (latency) A->D: A->B->C->D latency=17 hops=3 min_capacity=25
+ROUTE (max_bandwidth) A->D: A->C->D latency=22 hops=2 min_capacity=25
+ROUTE (min_hops) A->D: A->C->D latency=22 hops=2 min_capacity=25

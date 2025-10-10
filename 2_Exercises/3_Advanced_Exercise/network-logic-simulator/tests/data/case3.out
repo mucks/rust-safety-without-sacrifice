@@ -1,0 +1,7 @@
+SCHEDULED:
+t=0..60    link      cpu=1 mem=256 deps_satisfied=false
+t=0..30    pack      cpu=1 mem=256 deps_satisfied=false
+t=0..90    test      cpu=2 mem=256 deps_satisfied=false
+t=0..120   compile   cpu=2 mem=512 deps_satisfied=true
+ORDER: link, pack, test, compile
+TOTAL_DURATION_MS: 120

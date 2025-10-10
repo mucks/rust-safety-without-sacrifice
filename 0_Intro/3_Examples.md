@@ -13,3 +13,7 @@ https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
 A comparison of web frameworks in terms of performance, scalability, and resource usage.
 (Note: open in chromium-based browser for best results)
 [View Example](https://www.techempower.com/benchmarks/)
+
+## Most admired programming language
+A survey-based ranking of programming languages based on developer admiration and satisfaction.
+[View Example](https://survey.stackoverflow.co/2025/technology/#2-programming-scripting-and-markup-languages)

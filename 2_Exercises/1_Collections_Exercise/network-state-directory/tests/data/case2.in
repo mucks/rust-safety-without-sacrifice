@@ -1,0 +1,8 @@
+# Move success and failure
+MEMBER ForestCity 1 Alice Citizen
+MEMBER Prospera 7 Paula Validator
+MOVE ForestCity Prospera 1
+MOVE ForestCity Prospera 99
+COUNT ForestCity
+COUNT Prospera
+STATS

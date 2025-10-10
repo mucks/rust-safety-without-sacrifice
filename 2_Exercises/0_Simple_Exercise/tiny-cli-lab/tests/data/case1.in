@@ -1,0 +1,6 @@
+# Basics: numbers and text
+ADD 2 3
+MUL 4 5
+UPPER hello world
+REV rust is fun
+COUNT banana

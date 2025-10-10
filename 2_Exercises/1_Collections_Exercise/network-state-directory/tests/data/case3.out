@@ -1,0 +1,5 @@
+PREFIX ForestCity A:
+ - Alice (1)
+ - Akira (2)
+ - Ana (4)
+STATS citizens=2 validators=1 founders=1

@@ -1,0 +1,12 @@
+# Alliance describe
+STATE Prospera 500
+STATE Zuitzerland 700
+CITIZEN Prospera 10 Pax Builder
+CITIZEN Prospera 11 Pia Researcher
+CITIZEN Zuitzerland 20 Zoe Validator
+CITIZEN Zuitzerland 21 Zed Builder
+CITIZEN Zuitzerland 22 Zara Governor
+ALLIANCE_NEW BlueNet
+ALLIANCE_ADD BlueNet Prospera
+ALLIANCE_ADD BlueNet Zuitzerland
+ALLIANCE_DESCRIBE BlueNet

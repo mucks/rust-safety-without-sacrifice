@@ -1,0 +1,19 @@
+# Mixed workflow
+STATE ForestCity 600
+CITIZEN ForestCity 1 Alice Builder
+CITIZEN ForestCity 2 Alex Researcher
+CITIZEN ForestCity 3 Aria Validator
+STATE Prospera 900
+CITIZEN Prospera 4 Pax Builder
+CITIZEN Prospera 5 Pia Researcher
+CITIZEN Prospera 6 Pam Validator
+CITIZEN Prospera 7 Phil Governor
+CITIZEN Prospera 8 Pedro Builder
+CITIZEN Prospera 9 Priya Researcher
+ALLY ForestCity Zuitzerland
+REPORT ForestCity
+ALLIANCE_NEW GreenNet
+ALLIANCE_ADD GreenNet ForestCity
+ALLIANCE_ADD GreenNet Prospera
+ALLIANCE_DESCRIBE GreenNet
+POLY_SUMMARIES

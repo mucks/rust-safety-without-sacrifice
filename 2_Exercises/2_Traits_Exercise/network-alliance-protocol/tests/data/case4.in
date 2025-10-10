@@ -1,0 +1,13 @@
+# Trait objects summary
+STATE Zuzalu 400
+CITIZEN Zuzalu 1 Zoe Builder
+CITIZEN Zuzalu 2 Zack Researcher
+CITIZEN Zuzalu 3 Zia Validator
+CITIZEN Zuzalu 4 Zeke Governor
+STATE Prospera 300
+CITIZEN Prospera 5 Pax Builder
+CITIZEN Prospera 6 Pia Researcher
+ALLIANCE_NEW RedNet
+ALLIANCE_ADD RedNet Zuzalu
+ALLIANCE_ADD RedNet Prospera
+POLY_SUMMARIES

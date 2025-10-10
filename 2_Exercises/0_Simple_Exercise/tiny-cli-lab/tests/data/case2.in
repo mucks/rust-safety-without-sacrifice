@@ -1,0 +1,6 @@
+# Mixed spacing and larger numbers
+ADD 100 250
+MUL 12 12
+REV ab cd ef
+UPPER rust
+COUNT Mississippi

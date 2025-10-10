@@ -1,0 +1,4 @@
+CONSENSUS r7: leader=Alice quorum_met=true votes={Alice:2, Bob:1}
+ASYNC done: analyze@100ms
+ASYNC done: archive@200ms
+ASYNC done: ingest@300ms

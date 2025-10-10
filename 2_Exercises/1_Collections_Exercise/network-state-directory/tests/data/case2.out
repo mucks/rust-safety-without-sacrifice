@@ -1,0 +1,5 @@
+Moved 1 from ForestCity to Prospera: true
+Moved 99 from ForestCity to Prospera: false
+COUNT ForestCity: 0
+COUNT Prospera: 2
+STATS citizens=1 validators=1 founders=0

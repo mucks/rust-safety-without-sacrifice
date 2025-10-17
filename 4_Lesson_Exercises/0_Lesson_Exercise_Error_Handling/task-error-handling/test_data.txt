@@ -1,0 +1,18 @@
+send btc 10 to address 1BoatSLRHtKNngkdXEeobR76b53LETtpyT              # ✅ valid P2PKH
+send btc 5 to address 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy              # ✅ valid P2SH
+send btc 1 to address bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kygt080      # ✅ valid Bech32 (SegWit)
+send btc 2 to address bc1p5cyxnuxmeuwuvkwfem96l9uzk3dyglsd9u5h4m9w7s2r6z9r2sqf3x7h0g # ✅ Taproot
+send btc 0.5 to address 1BoatSLRHtKNngkdXEeobR76b53LETtpzz            # ❌ invalid checksum
+send btc 7 to address bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kygt08O      # ❌ invalid char (O)
+send eth 5 to address 0x742d35Cc6634C0532925a3b844Bc454e4438f44e      # ✅ valid
+send eth 2 to address 0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe      # ✅ valid
+send eth 3 to address 0x52908400098527886E0F7030069857D2E4169EE7      # ✅ valid checksum format
+send eth 1 to address 0x742d35cc6634c0532925a3b844bc454e4438f44       # ❌ missing one char
+send eth 10 to address 742d35Cc6634C0532925a3b844Bc454e4438f44e       # ❌ missing "0x"
+send eth 5 to address 0xZZZZ35Cc6634C0532925a3b844Bc454e4438f44e      # ❌ invalid hex chars
+send sol 2 to address 4Nd1mY8iZP2Yvn6tA8FWiVvXqUuY1eWYQfFCJ2yJcQrC     # ✅ valid
+send sol 1 to address H3C8dUuWqZK7mtQmVtqzL4qV4byzvNQh6H7v7qSR9zMF     # ✅ valid
+send sol 4 to address 11111111111111111111111111111111                 # ✅ system program (valid)
+send sol 1 to address GARBAGEADDRESS123456789                          # ❌ invalid base58
+send sol 2 to address 4Nd1mY8iZP2Yvn6tA8FWiVvXqUuY1eWYQfFCJ2yJcQr      # ❌ too short
+send sol 3 to address                                                 # ❌ empty address
